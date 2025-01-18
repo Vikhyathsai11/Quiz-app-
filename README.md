@@ -1,5 +1,3 @@
-Here’s the content for your `README.md` file:
-
 ---
 
 # Quiz App
@@ -57,7 +55,20 @@ http://localhost:3000
 
 ---
 
+## End-to-End Testing
+The application includes comprehensive end-to-end (e2e) testing using **Cypress**.
+
+### Running Cypress Tests
+To open Cypress and run the tests, use the following command:
+```bash
+npx cypress open
+```
+
+The tests are located in the `cypress/e2e` directory and cover functionality for both the start page and the quiz page.
+
+---
+
 ## Deployment
 For deploying the app **Vercel** 
-
+https://quizapp-vikhyath.vercel.app/
 ---
